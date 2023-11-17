@@ -7,7 +7,9 @@ message(STATUS "PROJECT_NAME: ${PROJECT_NAME}")
 message(STATUS "PROJECT_SOURCE_DIR path: ${PROJECT_SOURCE_DIR}")
 message(STATUS "CMAKE_CURRENT_SOURCE_DIR path: ${CMAKE_CURRENT_SOURCE_DIR}")
 message(STATUS "PROJECT_BINARY_DIR: ${PROJECT_BINARY_DIR}")
+
 message(STATUS "-------------------------------------------------------------")
+
 message(STATUS "ANDROID: ${ANDROID}")
 message(STATUS "APPLE: ${APPLE}")
 message(STATUS "BORLAND: ${BORLAND}")
@@ -615,6 +617,51 @@ message(STATUS "WINDOWS_STORE: ${WINDOWS_STORE}")
 message(STATUS "XCODE: ${XCODE}")
 message(STATUS "XCODE_VERSION: ${XCODE_VERSION}")
 
+message(STATUS "-------------------------------------------------------------")
+
+message(STATUS "ASM_DIALECT: ${ASM_DIALECT}")
+message(STATUS "ASM_DIALECTFLAGS: ${ASM_DIALECTFLAGS}")
+message(STATUS "CC: ${CC}")
+message(STATUS "CCMAKE_COLORS: ${CCMAKE_COLORS}")
+message(STATUS "CFLAGS: ${CFLAGS}")
+message(STATUS "CMAKE_BUILD_PARALLEL_LEVEL: ${CMAKE_BUILD_PARALLEL_LEVEL}")
+message(STATUS "CMAKE_CONFIG_TYPE: ${CMAKE_CONFIG_TYPE}")
+message(STATUS "CMAKE_EXPORT_COMPILE_COMMANDS: ${CMAKE_EXPORT_COMPILE_COMMANDS}")
+message(STATUS "CMAKE_GENERATOR: ${CMAKE_GENERATOR}")
+message(STATUS "CMAKE_GENERATOR_INSTANCE: ${CMAKE_GENERATOR_INSTANCE}")
+message(STATUS "CMAKE_GENERATOR_PLATFORM: ${CMAKE_GENERATOR_PLATFORM}")
+message(STATUS "CMAKE_GENERATOR_TOOLSET: ${CMAKE_GENERATOR_TOOLSET}")
+message(STATUS "CMAKE_LANG_COMPILER_LAUNCHER: ${CMAKE_LANG_COMPILER_LAUNCHER}")
+message(STATUS "CMAKE_MSVCIDE_RUN_PATH: ${CMAKE_MSVCIDE_RUN_PATH}")
+message(STATUS "CMAKE_NO_VERBOSE: ${CMAKE_NO_VERBOSE}")
+message(STATUS "CMAKE_OSX_ARCHITECTURES: ${CMAKE_OSX_ARCHITECTURES}")
+message(STATUS "CMAKE_PREFIX_PATH: ${CMAKE_PREFIX_PATH}")
+message(STATUS "CSFLAGS: ${CSFLAGS}")
+message(STATUS "CTEST_INTERACTIVE_DEBUG_MODE: ${CTEST_INTERACTIVE_DEBUG_MODE}")
+message(STATUS "CTEST_OUTPUT_ON_FAILURE: ${CTEST_OUTPUT_ON_FAILURE}")
+message(STATUS "CTEST_PARALLEL_LEVEL: ${CTEST_PARALLEL_LEVEL}")
+message(STATUS "CTEST_PROGRESS_OUTPUT: ${CTEST_PROGRESS_OUTPUT}")
+message(STATUS "CTEST_USE_LAUNCHERS_DEFAULT: ${CTEST_USE_LAUNCHERS_DEFAULT}")
+message(STATUS "CUDACXX: ${CUDACXX}")
+message(STATUS "CUDAFLAGS: ${CUDAFLAGS}")
+message(STATUS "CUDAHOSTCXX: ${CUDAHOSTCXX}")
+message(STATUS "CXX: ${CXX}")
+message(STATUS "CXXFLAGS: ${CXXFLAGS}")
+message(STATUS "DASHBOARD_TEST_FROM_CTEST: ${DASHBOARD_TEST_FROM_CTEST}")
+message(STATUS "DESTDIR: ${DESTDIR}")
+message(STATUS "ENV_VAR: ${ENV_VAR}")
+message(STATUS "FC: ${FC}")
+message(STATUS "FFLAGS: ${FFLAGS}")
+message(STATUS "LDFLAGS: ${LDFLAGS}")
+message(STATUS "MACOSX_DEPLOYMENT_TARGET: ${MACOSX_DEPLOYMENT_TARGET}")
+message(STATUS "OBJC: ${OBJC}")
+message(STATUS "OBJCXX: ${OBJCXX}")
+message(STATUS "PackageName_ROOT: ${PackageName_ROOT}")
+message(STATUS "RC: ${RC}")
+message(STATUS "RCFLAGS: ${RCFLAGS}")
+message(STATUS "SWIFTC: ${SWIFTC}")
+message(STATUS "VERBOSE: ${VERBOSE}")
+
 #[[
 -- PROJECT_NAME: CALC
 -- PROJECT_SOURCE_DIR path: /cmake-course/v1
@@ -724,7 +771,7 @@ message(STATUS "XCODE_VERSION: ${XCODE_VERSION}")
 -- CMAKE_CURRENT_FUNCTION_LIST_LINE:
 -- CMAKE_CURRENT_LIST_DIR: /cmake-course/v1
 -- CMAKE_CURRENT_LIST_FILE: /cmake-course/v1/CMakeLists.txt
--- CMAKE_CURRENT_LIST_LINE: 114
+-- CMAKE_CURRENT_LIST_LINE: 116
 -- CMAKE_CURRENT_SOURCE_DIR: /cmake-course/v1
 -- CMAKE_CXX_COMPILE_FEATURES: cxx_std_98;cxx_template_template_parameters;cxx_std_11;cxx_alias_templates;cxx_alignas;cxx_alignof;cxx_attributes;cxx_auto_type;cxx_constexpr;cxx_decltype;cxx_decltype_incomplete_return_types;cxx_default_function_template_args;cxx_defaulted_functions;cxx_defaulted_move_initializers;cxx_delegating_constructors;cxx_deleted_functions;cxx_enum_forward_declarations;cxx_explicit_conversions;cxx_extended_friend_declarations;cxx_extern_templates;cxx_final;cxx_func_identifier;cxx_generalized_initializers;cxx_inheriting_constructors;cxx_inline_namespaces;cxx_lambdas;cxx_local_type_template_args;cxx_long_long_type;cxx_noexcept;cxx_nonstatic_member_init;cxx_nullptr;cxx_override;cxx_range_for;cxx_raw_string_literals;cxx_reference_qualified_functions;cxx_right_angle_brackets;cxx_rvalue_references;cxx_sizeof_member;cxx_static_assert;cxx_strong_enums;cxx_thread_local;cxx_trailing_return_types;cxx_unicode_literals;cxx_uniform_initialization;cxx_unrestricted_unions;cxx_user_literals;cxx_variadic_macros;cxx_variadic_templates;cxx_std_14;cxx_aggregate_default_initializers;cxx_attribute_deprecated;cxx_binary_literals;cxx_contextual_conversions;cxx_decltype_auto;cxx_digit_separators;cxx_generic_lambdas;cxx_lambda_init_captures;cxx_relaxed_constexpr;cxx_return_type_deduction;cxx_variable_templates;cxx_std_17;cxx_std_20
 -- CMAKE_CXX_EXTENSIONS:
@@ -1227,11 +1274,50 @@ message(STATUS "XCODE_VERSION: ${XCODE_VERSION}")
 -- WINDOWS_STORE:
 -- XCODE:
 -- XCODE_VERSION:
+-- -------------------------------------------------------------
+-- ASM_DIALECT:
+-- ASM_DIALECTFLAGS:
+-- CC:
+-- CCMAKE_COLORS:
+-- CFLAGS:
+-- CMAKE_BUILD_PARALLEL_LEVEL:
+-- CMAKE_CONFIG_TYPE:
+-- CMAKE_EXPORT_COMPILE_COMMANDS:
+-- CMAKE_GENERATOR: Unix Makefiles
+-- CMAKE_GENERATOR_INSTANCE:
+-- CMAKE_GENERATOR_PLATFORM:
+-- CMAKE_GENERATOR_TOOLSET:
+-- CMAKE_LANG_COMPILER_LAUNCHER:
+-- CMAKE_MSVCIDE_RUN_PATH:
+-- CMAKE_NO_VERBOSE:
+-- CMAKE_OSX_ARCHITECTURES:
+-- CMAKE_PREFIX_PATH:
+-- CSFLAGS:
+-- CTEST_INTERACTIVE_DEBUG_MODE:
+-- CTEST_OUTPUT_ON_FAILURE:
+-- CTEST_PARALLEL_LEVEL:
+-- CTEST_PROGRESS_OUTPUT:
+-- CTEST_USE_LAUNCHERS_DEFAULT:
+-- CUDACXX:
+-- CUDAFLAGS:
+-- CUDAHOSTCXX:
+-- CXX:
+-- CXXFLAGS:
+-- DASHBOARD_TEST_FROM_CTEST:
+-- DESTDIR:
+-- ENV_VAR:
+-- FC:
+-- FFLAGS:
+-- LDFLAGS:
+-- MACOSX_DEPLOYMENT_TARGET:
+-- OBJC:
+-- OBJCXX:
+-- PackageName_ROOT:
+-- RC:
+-- RCFLAGS:
+-- SWIFTC:
+-- VERBOSE:
 
 ]]
-
-
-
-
 
 add_executable(app add.c div.c main.c mult.c sub.c)

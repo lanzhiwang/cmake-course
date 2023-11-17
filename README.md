@@ -1,6 +1,7 @@
 # cmake
 
 * https://subingwen.cn/cmake/CMake-primer/
+* https://mp.weixin.qq.com/s/SnFZkxoKaLeqXrDZWq7x2w
 
 ```bash
 Lindent.sh *.c
